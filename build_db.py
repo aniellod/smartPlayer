@@ -13,7 +13,7 @@ musicbrainzngs.set_useragent("MusicResolver", "1.0", "https://yourdomain.com")
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
-DEFAULT_DB_PATH = os.path.expanduser("~/mp3db/music-resolver.db")
+DEFAULT_DB_PATH = os.path.expanduser("~/smartPlayer/music-resolver.db")
 
 diagnostics = {
     "missing_genre": 0,

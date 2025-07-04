@@ -129,7 +129,7 @@ def main():
 
     current_path = sys.argv[1]
     resolver_db_path = sys.argv[2]
-    library_db_path = "/var/lib/mp3server/music_library.db"
+    library_db_path = "~/smartPlayer/music_library.db"
 
     conn_tracks = sqlite3.connect(resolver_db_path)
     conn_library = sqlite3.connect(library_db_path)
