@@ -38,6 +38,17 @@ You will need:
 - Python 3.8+
 - `sqlite3` installed (the SQLite CLI and dev library)
 
+## 🐍 Virtual environment setup
+
+It is recommended to create a virtual environment to isolate dependencies.
+
+### Create and activate the virtual environment:
+```bash
+python3 -m venv venv
+source venv/bin/activate  # On Linux / macOS
+
+or run the setup.sh
+
 ### Ubuntu / Debian install:
 ```bash
 sudo apt-get install python3 python3-pip sqlite3 libsqlite3-dev
