@@ -1,0 +1,4 @@
+mutagen
+musicbrainzngs
+sentence-transformers
+numpy
